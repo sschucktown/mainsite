@@ -1,0 +1,433 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name=”description” content=”Personal page of Charleston based software developer Scott Sandie”>
+  <title>scottsandie.com</title>
+  <link rel="stylesheet" href="/css_main/scottsandie.css">
+  <link rel="stylesheet" href="/css_main/github.css">
+  <link rel="stylesheet" href="/css_main/simplegrid.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.1/css/material-design-iconic-font.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#F44336"> 
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/favicons_main/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/favicons_main/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/favicons_main/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicons_main/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/favicons_main/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/favicons_main/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/favicons_main/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/favicons_main/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons_main/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/favicons_main/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicons_main/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/favicons_main/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/favicons_main/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/favicons_main/manifest.json">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="msapplication-TileImage" content="/favicons_main/mstile-144x144.png">
+  <meta name="msapplication-config" content="/favicons_main/browserconfig.xml">
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+  <body class="home">
+    <div id="sidebar">
+  <div id="mobile-logo">
+    <a href="#home" onmouseover="toggleLogo('red')" onmouseout="toggleLogo('white')" onclick="$(window).scrollTo($('#home'), 400);">
+      <img id="logo" src="/images_main/logo.png">
+    </a>
+  </div>
+  <div id="mobile-nav">
+    <a href="#!" onclick="toggleMenu()" class="white">MENU</a>
+  </div>
+  <nav id="categories" role="navigation">
+    <div class="menu">
+      <ul>
+        <li class="introduction">
+          <a href="#introduction" onclick="$(window).scrollTo($('#introduction'), 400, {offset: -50});toggleMenu();">Introduction</a>
+        </li>
+        <li class="portfolio">
+          <a href="#portfolio" onclick="$(window).scrollTo($('#portfolio'), 400, {offset: -50});toggleMenu();">Portfolio</a>
+        </li>
+        <li class="contact">
+          <a href="#contact" onclick="$(window).scrollTo($('#contact'), 400, {offset: -50});toggleMenu();">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+    <div id="home" class="header">
+  <div id="video-container">
+    <video autoplay loop class="coverr" poster="/images_main/typing.jpg">
+        <source src="/images_main/typing.mp4" type="video/mp4" />
+        <source src="/images_main/typing.webm" type="video/webm" />
+        <img src="/images_main/fallback3.jpg" title="Your browser does not support the <video> tag">
+    </video>
+  </div>
+  <div class="profile">
+    <img class="circular" src="/images_main/me.jpg" alt="Profile image"/>
+    <h1>Scott Sandie</h1>
+    <span class="subheading">Software Developer</span>
+  </div>
+  <div class="down-arrow" onclick="$(window).scrollTo($('#introduction'), 400, {offset: -50});">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="43px" height="33px" viewBox="0 0 43 33" enable-background="new 0 0 43 33" xml:space="preserve">
+      <g>
+        <path fill="#FFFFFF" d="M0.093,1.294c0,3.176,0,7.686,0,8.77l21.408,21.502l21.406-21.502c0-0.836,0-6.08,0-8.77L21.501,22.796   L0.093,1.294z"></path>
+      </g>
+    </svg>
+  </div>
+</div>
+
+<div id="introduction" class="grid grid-pad">
+  <div class="col-1-1">
+    <h2 class="heading">Introduction</h2>
+    <p>My name is Scott Sandie.  I am a Southern California transplant living in Charleston, Sc. I worked in sales in the cellphone industry for 5 years where I became an Android apologist and wanted to know more about the technology that powered them.  This led me back to school at the College of Charleston where I took classes in computer science.</p>
+
+    <p>In school I started out in html, css, and Javascript and learned the basics by designing simple web applications.  I then went on to learn the back end technology, building more applications with php, python, and mysql.  Recently, I have dove into java to further my understaning of the Android platform in Android Studio.  
+    </p>
+
+
+    <div style="text-align: center">
+      <a href="/content_main/Scott_Sandie_cv.pdf" class="btn btn-lg" title="View Resumé">
+        <i class="zmdi zmdi-file"></i> View Resumé
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-background">
+  <div id="portfolio" class="grid grid-pad">
+
+    <div class="col-1-1">
+      <h2 class="heading">Portfolio</h2>
+    </div>
+
+    <div class="col-1-3">
+      <h3>Space Junk</h3>
+      <a id="spacejunkModal" href="#spacejunk" class="modal-link">
+        <div class="overlay-container">
+          <div class="overlay">
+            <i class="zmdi zmdi-zoom-in"></i>
+          </div>
+          <img src="/images_main/spacejunk.jpg" alt="SpaceJunk"/>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-1-3">
+      <h3>poi</h3>
+      <a id="poiModal" href="#poi" class="modal-link ">
+        <div class="overlay-container">
+          <div class="overlay">
+            <i class="zmdi zmdi-zoom-in"></i>
+          </div>
+          <img src="/images_main/poi.png" alt="poi"/>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-1-3">
+      <h3>twiclone</h3>
+      <a id="twicloneModal" href="#twiclone" class="modal-link">
+        <div class="overlay-container">
+          <div class="overlay">
+            <i class="zmdi zmdi-zoom-in"></i>
+          </div>
+          <img src="/images_main/twiclone.png" alt="twiclone"/>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-1-3">
+      <h3>Spinnulator</h3>
+      <a id="spinnulatorModal" href="#spinnulator" class="modal-link">
+        <div class="overlay-container">
+          <div class="overlay">
+            <i class="zmdi zmdi-zoom-in"></i>
+          </div>
+          <img src="/images_main/spinnulator2.jpg" alt="Spinnulator"/>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-1-3">
+      <h3>BREACH</h3>
+      <a id="breachModal" href="#breach" class="modal-link">
+        <div class="overlay-container">
+          <div class="overlay">
+            <i class="zmdi zmdi-zoom-in"></i>
+          </div>
+          <img src="/images_main/breach.jpg" alt="BREACH"/>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-1-3">
+      <h3>current project Renderer</h3>
+      <a id="current projectModal" href="#current project" class="modal-link">
+        <div class="overlay-container">
+          <div class="overlay">
+            <i class="zmdi zmdi-zoom-in"></i>
+          </div>
+          <img src="/images_main/current project-renderer.png" alt="current project Renderer"/>
+        </div>
+      </a>
+    </div>
+
+    <p class="portfolio-footer">The rest of my projects can be seen at <a href="https://github.com/sschucktown" title="My github profile">github.com/sschucktown</a></p>
+  </div>
+</div>
+
+<div id="contact" class="grid grid-pad">
+  <div class="col-1-1">
+    <h2 class="heading">Contact</h2>
+    <div class="social">
+      <a href="mailto:scott@scottsandie.com" title="scott@scottsandie.com" style="left: 0%; right: 75%">
+        <i class="zmdi zmdi-email"></i>
+        <div class="social-text">scott<wbr>scottsandie.com</div>
+      </a>
+      <a href="https://github.com/sschucktown" title="github.com/sschucktown" style="left: 25%; right: 50%">
+        <i class="zmdi zmdi-github-box"></i>
+        <div class="social-text">github.com<wbr>/sschucktown</div>
+      </a>
+      <a href="http://facebook.com/scottm.sandie" title="facebook.com/scottm.sandie" style="left: 50%; right: 25%">
+        <i class="zmdi zmdi-facebook-box"></i>
+        <div class="social-text">facebook.com<wbr>/scottm.sandie</div>
+      </a>
+      <a href="http://linkedin.com/in/scott-sandie-7361a06" title="linkedin.com/in/scott-sandie-7361a06" style="left: 75%; right: 0%">
+        <i class="zmdi zmdi-linkedin-box"></i>
+        <div class="social-text">linkedin.com<wbr>/in/scott-sandie-7361a06</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Modals -->
+<div id="spacejunk" class="modal-container">
+  <div class="modal-background close-spacejunk modal-close"></div>
+  <div class="modal-content grid grid-pad">
+    <div class="close-spacejunk modal-close modal-close-main"> 
+      <i class="zmdi zmdi-close"></i>
+    </div>
+
+    <div class="col-1-1">
+      <h3 class="heading-modal">spacejunk</h3>
+      <img src="/images_main/spacejunk.jpg" alt="spacejunk"/>
+      <p>spacejunk the result of an exploration of html, css, and javascript.  This was for my Intro to Gaming class.</p>
+
+      <div>
+        <a href="http://www.scottsandie.com/spacejunk/" class="btn btn-sm" title="spacejunk Website"><i class="zmdi zmdi-globe"></i> SpaceJunk Website</a>
+      </div>
+      <div>
+        <a href="https://github.com/sschucktown/spacejunk" class="btn btn-sm" title="SpaceJunk on GitHub"><i class="zmdi zmdi-github-box"></i> View on GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="poi" class="modal-container">
+  <div class="modal-background close-poi modal-close"></div>
+  <div class="modal-content grid grid-pad">
+    <div class="close-poi modal-close modal-close-main"> 
+      <i class="zmdi zmdi-close"></i>
+    </div>
+
+    <div class="col-1-1">
+      <h3 class="heading-modal">poi</h3>
+      <img src="/images_main/poi.png" alt="poi showcase"/>
+      <p>poi is a task list for Android using Material Design, it has been created to provide a simple, minimalist and intuitive experience that's in the way as little as possible.</p>
+
+      <div>
+        <a href="https://play.google.com/store/apps/details?id=appinventor.ai_scottmsandie.csci399d&hl=en" class="btn btn-sm" title="poi on Google Play"><i class="zmdi zmdi-google-play"></i> View on Google Play</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="twiclone" class="modal-container">
+  <div class="modal-background close-twiclone modal-close"></div>
+  <div class="modal-content grid grid-pad">
+    <div class="close-twiclone modal-close modal-close-main"> 
+      <i class="zmdi zmdi-close"></i>
+    </div>
+
+    <div class="col-1-1">
+
+      <h3 class="heading-modal">twiclone</h3>
+
+      <img src="/images_main/twiclone.png" alt="twiclone showcase"/>
+
+      <p>twiclone is a relational database project.  It uses php, html, css, javascript, and mysql.</p>
+
+      <div>
+        <a href="http://www.scottsandie.com/twiclone" class="btn btn-sm" title="twiclone Website"><i class="zmdi zmdi-globe"></i> twiclone Website</a>
+      </div>
+        
+        <div>
+        <a href="https://github.com/sschucktown/twiclone" class="btn btn-sm" title="twiclone on GitHub"><i class="zmdi zmdi-github-box"></i> View on GitHub</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="spinnulator" class="modal-container">
+  <div class="modal-background close-spinnulator modal-close"></div>        
+  <div class="modal-content grid grid-pad">
+    <div class="close-spinnulator modal-close modal-close-main"> 
+      <i class="zmdi zmdi-close"></i>
+    </div>
+
+    <div class="col-1-1">
+      <h3 class="heading-modal">Spinnulator</h3>
+
+      <div class='embed-container'>
+        <iframe src='https://www.youtube.com/embed/TO4Mj9dLjEw?enablejsapi=1' frameborder='0' allowfullscreen></iframe>
+      </div>
+
+      <p>Spinnulator is a simulator using cycling on a spinning bike. The positions and movements of the players body are tracked by a Microsoft Kinect and translated into a virtual environment. The player moves forward by cycling and their momentum will be retained just as in the real world, the player turns by tilting their whole body. I worked with developing the functionality for player movement, interaction and motion simulation so that players would feel like they were moving naturally and intuitively inside the virtual environment.</p>
+
+      <div>
+        <a href="http://spinnulators.github.io/Spinnulator/" class="btn btn-sm" title="Spinnulator Website"><i class="zmdi zmdi-globe"></i> Spinnulator Website</a>
+      </div>
+      <div>
+        <a href="https://github.com/Spinnulators/Spinnulator" class="btn btn-sm" title="Spinnulator on GitHub"><i class="zmdi zmdi-github-box"></i> View on GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="breach" class="modal-container">
+  <div class="modal-background close-breach modal-close"></div>
+  <div class="modal-content grid grid-pad">
+    <div class="close-breach modal-close modal-close-main"> 
+      <i class="zmdi zmdi-close"></i>
+    </div>
+
+    <div class="col-1-1">
+      <h3 class="heading-modal">BREACH</h3>
+
+      <div class='embed-container'>
+        <iframe src='http://www.youtube.com/embed/E9xpjsrUkdU?enablejsapi=1'></iframe>
+      </div>
+
+      <p>BREACH is a couch-competitive multiplayer shooter. Two players enter an arena each with their own distinct characters, and have to use all the tools to their disposal to emerge victorious in combat. Rounds are short, packed with intense action and most importantly tons of epic moments. I worked with designing the core gameplay mechanics and interactions, and then developing the functionality, implementations and polish in order to achieve an exciting and intuitive experience for the user.</p>
+
+      <div>
+        <a href="http://simonfra.se/Breach/" class="btn btn-sm" title="BREACH Website"><i class="zmdi zmdi-globe"></i> BREACH Website</a>
+      </div>
+      <div>
+        <a href="https://github.com/TerribleProductions/BREACH" class="btn btn-sm" title="BREACH on GitHub"><i class="zmdi zmdi-github-box"></i> BREACH on GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="current project" class="modal-container">
+  <div class="modal-background close-current project modal-close"></div>
+  <div class="modal-content grid grid-pad">
+    <div class="close-current project modal-close modal-close-main"> 
+      <i class="zmdi zmdi-close"></i>
+    </div>
+
+    <div class="col-1-1">
+      <h3 class="heading-modal">current project Renderer</h3>
+      <img src="/images_main/current project-renderer.png" alt="current project Renderer"/>
+      <p>For the course Digital Graphics and Interaction at KTH, I and Hampus Liljekvist created a current project renderer using C++, OpenGL and GLUT. It uses perlin noise to generate natural looking terrain using texturized current projects in a visual style similar to a popular mining and crafting simulator. This landscape can then be altered by adding or removing blocks in various ways.</p>
+
+      <div>
+        <a href="https://github.com/adrianblp/dgi14-current projects" class="btn btn-sm" title="current project Renderer on GitHub"><i class="zmdi zmdi-github-box"></i> View on GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="/js_main/scale.fix.js"></script>
+<script src="/js_main/modernizr.js"></script>
+<script src="/js_main/scripts.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+<script src="/js_main/animatedModal.min.js"></script>
+
+<script type="text/javascript">
+  // Used to make sure that if the user is on mobile,
+  // they will have a fallback image instead of video
+  $(document).ready(function() {
+    if(Modernizr.touch){
+      $("#video-container video").hide();
+      $("#video-container").css("background", "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(/images_main/fallback3.jpg) #111")
+      .css("background-position", "center center")
+      .css("background-size", "cover")
+      .css("min-height", "545px");
+    }
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(document).on("scroll", throttle(onScroll, 50));
+  });
+</script>
+
+<script type="text/javascript">
+    // Pause video when closing video modals
+    $('.close-spinnulator, .close-breach').click(function(e) {
+      callPlayer("pauseVideo");
+    });
+</script>
+
+<script>
+  var col = "#FFF";
+  //col = "#F33446";
+  $("#spacejunkModal").animatedModal({
+    modalTarget: 'spacejunk',
+    color: col,
+    animatedIn: "fadeIn",
+    animatedOut: "fadeOut",
+    animationDuration: "0.4s"
+  });
+  $("#poiModal").animatedModal({
+    modalTarget: 'poi',
+    color: col,
+    animatedIn: "fadeIn",
+    animatedOut: "fadeOut",
+    animationDuration: "0.4s"
+  });
+  $("#twicloneModal").animatedModal({
+    modalTarget: 'twiclone',
+    color: col,
+    animatedIn: "fadeIn",
+    animatedOut: "fadeOut",
+    animationDuration: "0.4s"
+  });
+  $("#spinnulatorModal").animatedModal({
+    modalTarget: 'spinnulator',
+    color: col,
+    animatedIn: "fadeIn",
+    animatedOut: "fadeOut",
+    animationDuration: "0.4s"
+  });
+  $("#breachModal").animatedModal({
+    modalTarget: 'breach',
+    color: col,
+    animatedIn: "fadeIn",
+    animatedOut: "fadeOut",
+    animationDuration: "0.4s"
+  });
+  $("#current projectModal").animatedModal({
+    modalTarget: 'current project',
+    color: col,
+    animatedIn: "fadeIn",
+    animatedOut: "fadeOut",
+    animationDuration: "0.4s"
+  });
+</script>
+</html>
